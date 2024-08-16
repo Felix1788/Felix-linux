@@ -117,10 +117,10 @@ permission() {
 	chmod +x "$PREFIX/bin/ubuntu"
 	termux-reload-settings
 
-	if [[ -e "$PREFIX/bin/ubuntu" ]]; then
+	if [[ -e "$PREFIX/bin/pardus" ]]; then
 		banner
 		cat <<- EOF
-			${R} [${W}-${R}]${G} Ubuntu-22.04 (CLI) is now Installed on your Termux
+			${R} [${W}-${R}]${G} Pardus (CLI) is now Installed on your Termux
 			${R} [${W}-${R}]${G} Restart your Termux to Prevent Some Issues.
 			${R} [${W}-${R}]${G} Type ${C}ubuntu${G} to run Ubuntu CLI.
 			${R} [${W}-${R}]${G} If you Want to Use UBUNTU in GUI MODE then ,
