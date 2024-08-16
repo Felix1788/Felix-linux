@@ -8,7 +8,7 @@ C="$(printf '\033[1;36m')"
 W="$(printf '\033[1;37m')" 
 
 CURR_DIR=$(realpath "$(dirname "$BASH_SOURCE")")
-UBUNTU_DIR="$PREFIX/var/lib/proot-distro/installed-rootfs/ubuntu"
+PARDUS_DIR="$PREFIX/var/lib/proot-distro/installed-rootfs/pardus"
 
 banner() {
 	clear
