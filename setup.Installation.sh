@@ -24,3 +24,4 @@ echo "$username    ALL=(ALL:ALL) ALL" >> /etc/sudoers
 
 nohup./setup.Installation.sh &
 exit
+termux-setup-storage
