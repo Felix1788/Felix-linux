@@ -12,7 +12,8 @@ echo "#!/bin/sh" >> ~/.vnc/xstartup
 echo "" >> ~/.vnc/xstartup
 echo "dbus-launch" >> ~/.vnc/xstartup
 echo "startxfce4" >> ~/.vnc/xstartup
-chmod +x .vnc/xstarup
+cd ~/.vnc/
+chmod +x *
 vncserver :2
 
 
