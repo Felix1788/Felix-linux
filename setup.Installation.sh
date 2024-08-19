@@ -19,3 +19,5 @@ read -s password
 adduser --disabled-password --gecos "" "$username"
 echo "$username:$password" | chpasswd
 
+# Adicionar as linhas ao arquivo /etc/sudoers
+echo "$username    ALL=(ALL:ALL) ALL" >> /etc/sudoers
