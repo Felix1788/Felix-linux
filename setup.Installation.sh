@@ -21,4 +21,7 @@ echo "$username:$password" | chpasswd
 
 # Adicionar as linhas ao arquivo /etc/sudoers
 echo "$username    ALL=(ALL:ALL) ALL" >> /etc/sudoers
+
+#fechar
+exit
 exit
