@@ -26,12 +26,16 @@ cd Felix-linux/
 ```
 
 ```
-chmod +x Installation.sh
+chmod +x *
 ```
 
 
 ```
 bash Installation.sh
+```
+```
+apt update ; apt install git
+
 ```
 ```
 git clone https://github.com/Felix1788/Felix-linux
@@ -42,7 +46,7 @@ cd Felix-linux/
 ```
 
 ```
-chmod +x setup.Installation.sh
+chmod +x *
 ```
 
 ```
