@@ -28,18 +28,13 @@ cd Felix-linux/
 ```
 chmod +x Installation.sh
 ```
-```
-apt update
-```
-```
-apt install git
-```
+
 
 ```
-git clone https://github.com/Felix1788/Felix-linux
-```
-```
 bash Installation.sh
+```
+```
+git clone https://github.com/Felix1788/Felix-linux
 
 ```
 ```
