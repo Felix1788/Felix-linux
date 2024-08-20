@@ -74,7 +74,7 @@ cd Felix-linux/
 ```
 
 ```
-chmod +x user.sh
+chmod +x *
 ```
 
 ```
