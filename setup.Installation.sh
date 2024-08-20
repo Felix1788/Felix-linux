@@ -7,6 +7,17 @@ apt full-upgrade
 #instalar sudo & nano
 apt install sudo nano adduser -y
 
+#sucesso
+echo 2-3 terminada
+
+
+#sleep
+sleep 3
+
+
+#clear
+clear
+
 # Perguntar ao usuário qual nome de usuário ele quer
 echo "Digite o nome de usuário:"
 read username
