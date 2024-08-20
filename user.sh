@@ -7,13 +7,29 @@ sudo apt install pardus-xfce-desktop -y
 sudo apt install tigervnc-standalone-server -y
 vncserver
 vncserver -kill :1
+clear
+echo AGUARDE.
+sleep 1
+clear
+echo AGUARDE..
+sleep 1
+clear
+echo AGUARDE...
+sleep 1
+clear
+echo AGUARDE.
+sleep 1
+clear
 mkdir -p ~/.vnc
+mkdir -p ~/.vnc/xstartup
 echo "#!/bin/sh" >> ~/.vnc/xstartup
 echo "" >> ~/.vnc/xstartup
 echo "dbus-launch" >> ~/.vnc/xstartup
 echo "startxfce4" >> ~/.vnc/xstartup
 cd ~/.vnc/
 chmod +x *
+cd
+clear
 vncserver :2
 
 
