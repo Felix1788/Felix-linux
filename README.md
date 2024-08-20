@@ -58,7 +58,7 @@ exit
 ```
 
 ```
-echo "proot-distro --user seu nome/Your name/Su nombre pardus" >> $PREFIX/bin/pardus
+echo "proot-distro --user "seu nome"/"Your name"/"Su nombre" pardus" >> $PREFIX/bin/pardus
 ```
 
 ```
