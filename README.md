@@ -78,4 +78,4 @@ chmod +x *
 ```
 
 ```
-bash user.sh
+bash user_Installation.sh
