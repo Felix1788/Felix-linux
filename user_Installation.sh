@@ -37,7 +37,7 @@ clear
 # instalar o mega pra descompactar os temas do mac
 sudo apt install megatools -y
 megadl https://mega.nz/file/xBhWjCbK#y8Mif8t5F7-QAZTmIKsCO0jswpKCxonNVLIq6PbXbl4
-unxz candy-icons.tar
+unxz candy-icons.tar.xz
 tar -xvf candy-icons.tar
 sudo mv candy-icons /usr/share/icons/
 
