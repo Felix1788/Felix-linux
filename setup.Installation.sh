@@ -6,6 +6,10 @@ apt update
 clear
 
 #banner
+echo -e "$(tput setaf 2)BEM VINDO A INSTALAÇÃO DO PARDUS 21 - 23$(tput sgr0)"
+sleep 1
+echo -e "$(tput setaf 2) Começando a instalação...$(tput sgr0)"
+sleep 2
 
 #upgrade
 apt upgrade
