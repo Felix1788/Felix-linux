@@ -35,7 +35,12 @@ clear
 
 # instalar o mega pra descompactar os temas do mac
 sudo apt install megatools
-megadl https://mega.nz/file/xBhWjCbK#y8Mif8t5F7-QAZTmIKsCO0jswpKCxonNVLIq6PbXbl4
+megadl "https://mega.nz/file/xBhWjCbK#y8Mif8t5F7-QAZTmIKsCO0jswpKCxonNVLIq6PbXbl4"
 tar -xvf candy-icons.tar.xz
 sudo mv candy-icons /usr/share/icons/
+
+megadl "https://mega.nz/file/8cYzgbbK#sOKQzdojEgjxsLCe2LlSxRSvyO842bcF-cbkiImEP_8"
+tar -xvf WhiteSur-Dark.tar.gz
+sudo mv WhiteSur-Dark /uar/share/icons/
+
 
