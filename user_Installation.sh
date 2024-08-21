@@ -5,6 +5,7 @@ echo "" >> /var/lib/dpkg/info/udisks2.postinst
 sudo apt-mark hold udisks2
 sudo apt install pardus-xfce-desktop -y
 sudo apt install tigervnc-standalone-server -y
+clear
 vncserver
 vncserver -kill :1
 clear
