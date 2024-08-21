@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #banner
-echo " _______
+echo " ______________
 |            |
 |    FELIX   |
 |   THE CAT  |
