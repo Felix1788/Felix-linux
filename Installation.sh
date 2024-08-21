@@ -8,7 +8,7 @@ echo " _______
 |            |
 |____________|"
 #Mengagem de boa vindas
-echo -e "[32mBEM-VINDO 'A' [31m A INSTALAÇÃO [34mDO PARDUS[0m"
+echo -e "[32mBEM-VINDO (A) [31m A INSTALAÇÃO [34mDO PARDUS[0m"
 #Mengagem de espera
 sleep 5 # esperar # 5 segundos
 
