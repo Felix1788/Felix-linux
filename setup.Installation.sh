@@ -6,8 +6,6 @@ apt update
 clear
 
 #banner
-apt install flglet
-flglet -f slant "[37;32mFelix the cat[0m"
 
 #upgrade
 apt upgrade
