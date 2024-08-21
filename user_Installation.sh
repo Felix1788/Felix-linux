@@ -44,6 +44,6 @@ sudo mv candy-icons /usr/share/icons/
 megadl https://mega.nz/file/8cYzgbbK#sOKQzdojEgjxsLCe2LlSxRSvyO842bcF-cbkiImEP_8
 unxz WhiteSur-Dark.tar.xz
 tar -xvf WhiteSur-Dark.tar
-sudo mv WhiteSur-Dark /uar/share/icons/
+sudo mv WhiteSur-Dark /usr/share/icons/
 
 
