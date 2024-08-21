@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#banner
+pkg install figlet
+clear
+fliglet -f slant "FELIX THE CAT"
+sleep 1
 #Mengagem de boa vindas
 echo BEM-VINDO A INSTALAÇÃO DO PARDUS
 
