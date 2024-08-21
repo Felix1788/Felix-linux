@@ -34,7 +34,7 @@ vncserver :2
 clear
 
 # instalar o mega pra descompactar os temas do mac
-sudo apt install megatools
+sudo apt install megatools -y
 megadl "https://mega.nz/file/xBhWjCbK#y8Mif8t5F7-QAZTmIKsCO0jswpKCxonNVLIq6PbXbl4"
 tar -xvf candy-icons.tar.xz
 sudo mv candy-icons /usr/share/icons/
