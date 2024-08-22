@@ -34,7 +34,7 @@ clear
 
 #softwares
 sudo apt install chromium -y
-sed -i 's/chromium %U/chromium --no-sandbox %U/g' /usr/share/applications/chromium.desktop
+sed -i 'choromium --no-sandbox' /usr/share/applications/chromium.desktop
 
 sudo apt install curl
 
@@ -45,6 +45,8 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] http
 sudo apt update
 
 sudo apt install brave-browser -y
+
+sed -i 'brave-browser --no-sandbox' /usr/share/applications/brave-browser.desktop
 
 # instalar o mega pra descompactar os temas do mac
 sudo apt install megatools -y
