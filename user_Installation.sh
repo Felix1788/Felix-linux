@@ -43,5 +43,10 @@ megadl https://mega.nz/file/8cYzgbbK#sOKQzdojEgjxsLCe2LlSxRSvyO842bcF-cbkiImEP_8
 unxz WhiteSur-Dark.tar.xz
 tar -xvf WhiteSur-Dark.tar
 sudo mv WhiteSur-Dark /usr/share/icons/
+echo "[Settings]" >> ~/.config/gtk-3.0/settings.ini
+echo "" >> ~/.config/gtk-3.0/settings.ini
+echo "gtk-theme-name = WhiteSur-Dark" >> ~/.config/gtk-3.0/settings.ini
+echo "gtk-icon-theme-name = candy-icons" >> ~/.config/gtk-3.0/settings.ini
+
 
 
