@@ -21,7 +21,6 @@ clear
 echo AGUARDE.
 sleep 1
 clear
-mkdir -p ~/.vnc
 echo "#!/bin/sh" >> ~/.vnc/xstartup
 echo "" >> ~/.vnc/xstartup
 echo "dbus-launch" >> ~/.vnc/xstartup
