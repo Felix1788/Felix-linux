@@ -32,16 +32,5 @@ pardus
 ```
 
 ```
-git clone https://github.com/Felix1788/Felix-linux
+git clone https://github.com/Felix1788/Felix-linux ; cd Felix-linux/ ; chmod +x * ; bash user_Installation.sh
 ```
-
-```
-cd Felix-linux/
-```
-
-```
-chmod +x *
-```
-
-```
-bash user_Installation.sh
