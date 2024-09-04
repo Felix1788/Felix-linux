@@ -10,7 +10,7 @@ pkg update -y ; pkg upgrade -y && pkg install git -y ; git clone https://github.
 ```
 ```
 apt update ; apt install git
-git clone ; https://github.com/Felix1788/Felix-linux ; cd Felix-linux/ ; chmod +x * ; bash setup.Installation.sh ; exit
+git clone https://github.com/Felix1788/Felix-linux ; cd Felix-linux/ ; chmod +x * ; bash setup.Installation.sh ; exit
 
 ```
 ```
