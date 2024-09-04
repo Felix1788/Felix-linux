@@ -58,7 +58,7 @@ exit
 ```
 
 ```
-echo "proot-distro --user "seu nome"/"Your name"/"Su nombre" pardus" >> $PREFIX/bin/pardus
+echo "proot-distro login --user "seu nome/Your name" pardus" >> $PREFIX/bin/pardus
 ```
 ```
 chmod +x $PREFIX/bin/pardus
