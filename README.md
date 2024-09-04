@@ -6,15 +6,15 @@
 
 🇺🇲 Hello, I came to show you how to install pardus simply and quickly
 ```
-pkg update
+pkg update -y
 ```
 
 ```
-pkg upgrade
+pkg upgrade -y
 ```
 
 ```
-pkg install git
+pkg install git -y
 ```
 
 ```
