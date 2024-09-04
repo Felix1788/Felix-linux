@@ -6,57 +6,13 @@
 
 🇺🇲 Hello, I came to show you how to install pardus simply and quickly
 ```
-pkg update -y
-```
-
-```
-pkg upgrade -y
-```
-
-```
-pkg install git -y
-```
-
-```
-git clone https://github.com/Felix1788/Felix-linux
-```
-
-```
-cd Felix-linux/
-```
-
-```
-chmod +x *
-```
-
-
-```
-bash Installation.sh
+pkg update -y ; pkg upgrade -y && pkg install git -y ; git clone https://github.com/Felix1788/Felix-linux ; cd Felix-linux/ ; chmod +x * ; bash Installation.sh
 ```
 ```
 apt update ; apt install git
+git clone ; https://github.com/Felix1788/Felix-linux ; cd Felix-linux/ ; chmod +x * ; bash setup.Installation.sh ; exit
 
 ```
-```
-git clone https://github.com/Felix1788/Felix-linux
-
-```
-```
-cd Felix-linux/
-```
-
-```
-chmod +x *
-```
-
-```
-bash setup.Installation.sh
-```
-
-```
-exit
-```
-
 ```
 echo "proot-distro login --user "seu nome/Your name" pardus" >> $PREFIX/bin/pardus
 ```
