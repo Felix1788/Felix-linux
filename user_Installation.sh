@@ -9,6 +9,9 @@ clear
 vncserver
 vncserver -kill :1
 clear
+echo -e "[31m█░█ █▀▀ █░ █░ █▀█ █[0m"
+echo -e "[32m█▀█ ██▄ █▄ █▄ █▄█ ▄[0m"
+echo -e "[34mMade by Felix the cat Font[0m"
 tput cursor off
 echo -n "AGUARDE."
 sleep 1
