@@ -10,7 +10,7 @@ vncserver
 vncserver -kill :1
 clear
 tput cursor off
-echo -n "AGUARDE.
+echo -n "AGUARDE."
 sleep 1
 echo -n "."
 sleep 1
