@@ -9,18 +9,17 @@ clear
 vncserver
 vncserver -kill :1
 clear
-echo AGUARDE.
+tput cursor off
+echo -n "AGUARDE.
 sleep 1
-clear
-echo AGUARDE..
+echo -n "."
 sleep 1
-clear
-echo AGUARDE...
+echo -n "."
 sleep 1
+echo -n "."
+tput cursor on
 clear
-echo AGUARDE.
-sleep 1
-clear
+
 echo "#!/bin/sh" >> ~/.vnc/xstartup
 echo "" >> ~/.vnc/xstartup
 echo "dbus-launch" >> ~/.vnc/xstartup
