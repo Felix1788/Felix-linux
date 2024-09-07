@@ -82,11 +82,22 @@ echo "gtk-icon-theme-name=candy-icons" | sudo tee -a /etc/gtk-3.0/settings.ini
 
 sudo apt install plank -y
 
+#sleep
+sleep 1
+
+#clear
+clear
+
+#banner
 echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀[0m"
 echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█[0m"
 echo -e "[31m█▀█ █▀ █[0m"
 echo -e "[32m█▄█ ▄█ ▄[0m"
 echo -e "[34mMade by Felix the cat Font[0m"
 
+#sleep
 sleep 1
-echo -e 
+
+#concluído
+echo -e "[32mProjeto terminado com sucesso![0m"
+echo -e "[32mAgora você pode usar 'vncserver' ou 'vncserver -kill :2'![0m"
