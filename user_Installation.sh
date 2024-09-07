@@ -68,4 +68,25 @@ echo "" >> ~/.config/gtk-3.0/settings.ini
 echo "gtk-theme-name = WhiteSur-Dark" >> ~/.config/gtk-3.0/settings.ini
 echo "gtk-icon-theme-name = candy-icons" >> ~/.config/gtk-3.0/settings.ini
 
+# Configurar temas GTK automaticamente
+THEME_DIR=~/.config/gtk-3.0/
+mkdir -p $THEME_DIR
+
+echo "[Settings]" > $THEME_DIR/settings.ini
+echo "gtk-theme-name = WhiteSur-Dark" >> $THEME_DIR/settings.ini
+echo "gtk-icon-theme-name = candy-icons" >> $THEME_DIR/settings.ini
+
+# Aplicar temas para todas as sessões (opcional)
+echo "gtk-theme-name=WhiteSur-Dark" | sudo tee -a /etc/gtk-3.0/settings.ini
+echo "gtk-icon-theme-name=candy-icons" | sudo tee -a /etc/gtk-3.0/settings.ini
+
 sudo apt install plank -y
+
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀[0m"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█[0m"
+echo -e "[31m█▀█ █▀ █[0m"
+echo -e "[32m█▄█ ▄█ ▄[0m"
+echo -e "[34mMade by Felix the cat Font[0m"
+
+sleep 1
+echo -e 
