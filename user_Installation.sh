@@ -165,6 +165,9 @@ sudo apt install plank
 echo -e "[33m[*] Instalação concluída com sucesso!"
 sleep 3
 
+#clear
+clear
+
 #banner
 echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
 echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
@@ -174,9 +177,6 @@ echo -e "[34mMade by Felix the cat Font"
 
 #sleep
 sleep 1
-
-#clear
-clear
 
 # instalar o mega pra descompactar os temas do mac
 sudo apt install megatools -y
