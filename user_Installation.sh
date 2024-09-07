@@ -5,47 +5,47 @@ echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
 echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
 echo -e "[31m█▀█ █▀ █"
 echo -e "[32m█▄█ ▄█ ▄"
-echo -e "[34mMade by Felix the cat Font[0m"
+echo -e "[34mMade by Felix the cat Font"
 
 #sleep
 sleep 1
 
-echo -e "[33m[*] Instalando udisks2...[0m"
+echo -e "[33m[*] Instalando udisks2..."
 
 sudo apt install udisks2 -y
 sudo rm -rf /var/lib/dpkg/info/udisks2.postinst
 echo "" >> /var/lib/dpkg/info/udisks2.postinst
 sudo apt-mark hold udisks2
-echo -e "[33m[*] Instalação concluída com sucesso![0m"
+echo -e "[33m[*] Instalação concluída com sucesso!"
 sleep 3
 
 #clear
 clear
 
 #banner
-echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀[0m"
-echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█[0m"
-echo -e "[31m█▀█ █▀ █[0m"
-echo -e "[32m█▄█ ▄█ ▄[0m"
-echo -e "[34mMade by Felix the cat Font[0m"
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
+echo -e "[31m█▀█ █▀ █"
+echo -e "[32m█▄█ ▄█ ▄"
+echo -e "[34mMade by Felix the cat Font"
 
-echo -e "[33m[*] Instalando pardus-xfce-desktop...[0m"
+echo -e "[33m[*] Instalando pardus-xfce-desktop..."
 sudo apt install pardus-xfce-desktop -y
 sudo dpkg --configure -a
 sudo apt -f install ; sudo apt install -f
-echo -e "[33m[*] Instalação concluída com sucesso![0m"
+echo -e "[33m[*] Instalação concluída com sucesso!"
 sleep 3
 
 #banner
-echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀[0m"
-echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█[0m"
-echo -e "[31m█▀█ █▀ █[0m"
-echo -e "[32m█▄█ ▄█ ▄[0m"
-echo -e "[34mMade by Felix the cat Font[0m"
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
+echo -e "[31m█▀█ █▀ █"
+echo -e "[32m█▄█ ▄█ ▄"
+echo -e "[34mMade by Felix the cat Font"
 sleep 1
-echo -e "[33m[*] Instalando tigervnc...[0m"
+echo -e "[33m[*] Instalando tigervnc..."
 sudo apt install tigervnc-standalone-server -y
-echo -e "[33m[*] Instalação concluída com sucesso![0m"
+echo -e "[33m[*] Instalação concluída com sucesso!"
 sleep 3
 
 #clear
@@ -58,11 +58,11 @@ vncserver -kill :1
 clear
 
 #banner
-echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀[0m"
-echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█[0m"
-echo -e "[31m█▀█ █▀ █[0m"
-echo -e "[32m█▄█ ▄█ ▄[0m"
-echo -e "[34mMade by Felix the cat Font[0m"
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
+echo -e "[31m█▀█ █▀ █"
+echo -e "[32m█▄█ ▄█ ▄"
+echo -e "[34mMade by Felix the cat Font"
 
 #sleep
 sleep 1
@@ -95,12 +95,12 @@ vncserver :2
 clear
 
 #banner
-echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀[0m"
-echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█[0m"
-echo -e "[31m█▀█ █▀ █[0m"
-echo -e "[32m█▄█ ▄█ ▄[0m"
-echo -e "[34mMade by Felix the cat Font[0m"
-echo -e "[33m[*] Instalando chromium...[0m"
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
+echo -e "[31m█▀█ █▀ █"
+echo -e "[32m█▄█ ▄█ ▄"
+echo -e "[34mMade by Felix the cat Font"
+echo -e "[33m[*] Instalando chromium..."
 
 #sleep
 sleep 1
@@ -108,19 +108,19 @@ sleep 1
 #softwares
 sudo apt install chromium -y
 sed -i 'choromium --no-sandbox' /usr/share/applications/chromium.desktop
-echo -e "[33m[*] Instalação concluída com sucesso![0m"
+echo -e "[33m[*] Instalação concluída com sucesso!"
 sleep 3
 
 #clear
 clear
 
 #banner
-echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀[0m"
-echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█[0m"
-echo -e "[31m█▀█ █▀ █[0m"
-echo -e "[32m█▄█ ▄█ ▄[0m"
-echo -e "[34mMade by Felix the cat Font[0m"
-echo -e "[33m[*] Instalando brave...[0m"
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
+echo -e "[31m█▀█ █▀ █"
+echo -e "[32m█▄█ ▄█ ▄"
+echo -e "[34mMade by Felix the cat Font"
+echo -e "[33m[*] Instalando brave..."
 
 #sleep
 sleep 1
@@ -144,27 +144,27 @@ sleep 3
 clear
 
 #banner
-echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀[0m"
-echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█[0m"
-echo -e "[31m█▀█ █▀ █[0m"
-echo -e "[32m█▄█ ▄█ ▄[0m"
-echo -e "[34mMade by Felix the cat Font[0m"
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
+echo -e "[31m█▀█ █▀ █"
+echo -e "[32m█▄█ ▄█ ▄"
+echo -e "[34mMade by Felix the cat Font"
 
 #sleep
 sleep 1
 
 #plank
-echo -e "[33m[*] Instalando plank...[0m"
+echo -e "[33m[*] Instalando plank..."
 sudo apt install plank
-echo -e "[33m[*] Instalação concluída com sucesso![0m"
+echo -e "[33m[*] Instalação concluída com sucesso!"
 sleep 3
 
 #banner
-echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀[0m"
-echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█[0m"
-echo -e "[31m█▀█ █▀ █[0m"
-echo -e "[32m█▄█ ▄█ ▄[0m"
-echo -e "[34mMade by Felix the cat Font[0m"
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
+echo -e "[31m█▀█ █▀ █"
+echo -e "[32m█▄█ ▄█ ▄"
+echo -e "[34mMade by Felix the cat Font"
 
 #sleep
 sleep 1
@@ -207,15 +207,15 @@ sleep 1
 clear
 
 #banner
-echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀[0m"
-echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█[0m"
-echo -e "[31m█▀█ █▀ █[0m"
-echo -e "[32m█▄█ ▄█ ▄[0m"
-echo -e "[34mMade by Felix the cat Font[0m"
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
+echo -e "[31m█▀█ █▀ █"
+echo -e "[32m█▄█ ▄█ ▄"
+echo -e "[34mMade by Felix the cat Font"
 
 #sleep
 sleep 1
 
 #concluído
 echo -e "[32mProjeto terminado com sucesso![0m"
-echo -e "[32mAgora você pode usar 'vncserver' ou 'vncserver -kill :2'![0m"
+echo -e "[32mAgora você pode usar 'vncserver' ou 'vncserver -kill :2'!"
