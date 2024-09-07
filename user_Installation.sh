@@ -36,6 +36,9 @@ sudo apt -f install ; sudo apt install -f
 echo -e "[33m[*] Instalação concluída com sucesso!"
 sleep 3
 
+#clear
+clear
+
 #banner
 echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
 echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
