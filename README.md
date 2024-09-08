@@ -29,9 +29,10 @@
 - Easy for Beginners
 - Comes with some cool themes.
                
-                - ### Installation
-                - - Firstly install [Termux](https://termux.com) apk from [HERE](https://f-droid.org/repo/com.termux_118.apk)
-                  - - Secondly Clone the Repository & Run the setup File
+- ### Installation
+- Firstly install [Termux](https://termux.com) apk from [HERE](https://f-droid.org/repo/com.termux_118.apk)
+- Secondly Clone the Repository & Run the setup File
+
 
   
 ```
