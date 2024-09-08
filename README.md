@@ -1,8 +1,8 @@
 
 **XFCE PARDUS OS 21**
-
+<p align="center">
 ![inicio](https://github.com/user-attachments/assets/5dc4a5e1-e593-4f59-84c8-366a98c7e09d)
-
+<p align="center">
 🇧🇷 Olá vim mostrar como instalar o pardus simples e rápido
 
 🇪🇦 Hola vengo a mostrarles como instalar pardus, simple y rápido
