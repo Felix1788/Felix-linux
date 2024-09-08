@@ -60,7 +60,7 @@ echo -e "[34Digite o nome de usuário:"
 read username
 
 # Perguntar ao usuário qual senha ele quer
-echo -e "[34Digite a senha:"
+echo -e "[34.Digite a senha:"
 read -s password
 
 # Criar o usuário com o nome e senha fornecidos
