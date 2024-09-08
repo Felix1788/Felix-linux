@@ -1,4 +1,4 @@
-**XFCE PARDUS OS 21**
+<p align="center"><b>XFCE PARDUS OS 21</p>
   
 ![inicio](https://github.com/user-attachments/assets/5dc4a5e1-e593-4f59-84c8-366a98c7e09d)
 
