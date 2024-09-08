@@ -6,6 +6,16 @@ apt update
 clear
 
 #banner
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
+echo -e "[31m█▀█ █▀ █"
+echo -e "[32m█▄█ ▄█ ▄"
+echo -e "[34mMade by Felix the cat Font"
+
+#sleep
+sleep 1
+
+#banner
 echo -e "$(tput setaf 2)BEM VINDO A INSTALAÇÃO DO PARDUS 21 - 23$(tput sgr0)"
 sleep 1
 echo -e "$(tput setaf 2) Começando a instalação...$(tput sgr0)"
@@ -16,6 +26,9 @@ apt upgrade
 apt full-upgrade
 #instalar sudo & nano
 apt install sudo nano adduser -y
+
+#clear
+clear
 
 #sucesso
 echo 2-3 terminada
