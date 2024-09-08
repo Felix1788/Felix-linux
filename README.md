@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/github/issues/modded-ubuntu/modded-ubuntu?color=red&style=flat-square">
   <img src="https://img.shields.io/github/forks/modded-ubuntu/modded-ubuntu?color=teal&style=flat-square">
   
-<p align="center"><b>Run Pardus GUI on your termux with much features.</b>b></p>
+<p align="center"><b>Run Pardus GUI on your termux with much features.>b></p>
 <p align="center">
 
   
