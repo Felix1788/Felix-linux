@@ -26,10 +26,13 @@ apt update ; apt install git -y ; git clone https://github.com/Felix1788/Felix-l
 
 ```
 
+<p align="center">
 🇧🇷 tome cuidado onde está "seu nome" é para substituir por seu nome de usuário ok?
 
+<p align="center">
 🇪🇦 ten cuidado donde está "tu nombre" para reemplazarlo con tu nombre de usuario ok?
 
+<p align="center">
 🇺🇲 be careful where it says "your name" is to replace it with your username ok?
 
 ```
