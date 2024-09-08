@@ -1,6 +1,9 @@
 **XFCE PARDUS OS 21**
   
 ![inicio](https://github.com/user-attachments/assets/5dc4a5e1-e593-4f59-84c8-366a98c7e09d)
+
+
+<p align="center">
 <img src="https://img.shields.io/badge/MADE%20IN-BANGLADESH-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge">
 <img src="https://img.shields.io/badge/Version-2.0-blue?style=for-the-badge">
 
