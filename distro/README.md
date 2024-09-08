@@ -1,2 +1,3 @@
 fotos e vídeos
-![Uploading inicio.png…]()
+
+inicio.png…]()
