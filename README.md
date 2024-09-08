@@ -17,6 +17,22 @@
 <p align="center"><b>Run Pardus GUI on your termux with much features</p>
 <p align="center">
 
+### Features
+
+- Fixed Audio Output
+- - Lightweight {Requires at least 4GB Storage}
+  - - 2 Browsers (Chromium & Mozilla Firefox)
+    - - Supports Bangla Fonts
+      - - VLC Media Player and MPV media player
+        - - Visual Studio Code (buggy on arm )
+          - - Sublime Text Editor (only for arm64/aarch64)
+            - - Easy for Beginners
+              - - Comes with some cool themes.
+               
+                - ### Installation
+                - - Firstly install [Termux](https://termux.com) apk from [HERE](https://f-droid.org/repo/com.termux_118.apk)
+                  - - Secondly Clone the Repository & Run the setup File
+
   
 ```
 pkg update -y ; pkg upgrade -y && pkg install git -y ; git clone https://github.com/Felix1788/Felix-linux ; cd Felix-linux/ ; chmod +x * ; bash Installation.sh
