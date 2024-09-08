@@ -144,8 +144,8 @@ sleep 1
 #clear
 clear
 
-#banner
 {
+#banner
 echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
 echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
 echo -e "[31m█▀█ █▀ █"
@@ -157,8 +157,8 @@ echo -e "[33m[*] Instalando brave..."
 #sleep
 sleep 1
 
-#softwares
 {
+#softwares
 sudo apt install curl
 
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
