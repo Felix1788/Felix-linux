@@ -67,3 +67,18 @@ pardus
 ```
 git clone https://github.com/Felix1788/Felix-linux ; cd Felix-linux/ ; chmod +x * ; bash user_Installation.sh
 ```
+
+- **You have to note your VNC password !!**
+
+- Ubuntu image is now successfully installed .
+ 
+- Type `vncserver :1` to run Vncserver
+- Type `vncserver -kill :1` to stop Vncserver
+       
+- Install VNC VIEWER Apk on your Device. [Google Play Store](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android&hl=en)
+           
+
+- Open VNC VIEWER & Click on + Button & Enter the Address `localhost:1` or `localhost:2` & Name anything you like
+- Set the Picture Quality to High for better Quality
+- Click on Connect & Input the Password
+- Enjoy :D
