@@ -225,5 +225,5 @@ echo -e "[34mMade by Felix the cat Font"
 sleep 1
 
 #concluído
-echo -e "[32mProjeto terminado com sucesso![0m"
+echo -e "[32mProjeto terminado com sucesso!"
 echo -e "[32mAgora você pode usar 'vncserver' ou 'vncserver -kill :2'!"
