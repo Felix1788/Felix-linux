@@ -82,3 +82,13 @@ git clone https://github.com/Felix1788/Felix-linux ; cd Felix-linux/ ; chmod +x 
 - Set the Picture Quality to High for better Quality
 - Click on Connect & Input the Password
 - Enjoy :D
+
+### Credits : 
+
+```
+This Tool Uses the pardus image provided by the termux package `proot-distro`
+
+Full Credit of the Pardus image goes to them .
+
+Termux Proot Distro - https://github.com/termux/proot-distro
+```
