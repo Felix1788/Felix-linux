@@ -10,14 +10,10 @@
   <img src="https://img.shields.io/github/stars/modded-ubuntu/modded-ubuntu?style=flat-square">
   <img src="https://img.shields.io/github/issues/modded-ubuntu/modded-ubuntu?color=red&style=flat-square">
   <img src="https://img.shields.io/github/forks/modded-ubuntu/modded-ubuntu?color=teal&style=flat-square">
+  
 <p align="center"><b>Run Pardus GUI on your termux with much features.</b>b></p>p>
 <p align="center">
-  
-🇧🇷 Olá vim mostrar como instalar o pardus simples e rápido
-<p align="center">
-🇪🇦 Hola vengo a mostrarles como instalar pardus, simple y rápido
-<p align="center">
-🇺🇲 Hello, I came to show you how to install pardus simply and quickly
+
   
 ```
 pkg update -y ; pkg upgrade -y && pkg install git -y ; git clone https://github.com/Felix1788/Felix-linux ; cd Felix-linux/ ; chmod +x * ; bash Installation.sh
