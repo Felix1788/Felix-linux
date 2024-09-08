@@ -122,6 +122,9 @@ echo -e "[33m[*] Instalação concluída com sucesso!"
 sleep 3
 }
 
+#clear
+clear
+
 {
 #banner
 echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
@@ -138,8 +141,10 @@ sudo apt update
 sudo apt install code
 }
 
-#sleep
-sleep 1
+{
+echo -e "[34m[*] Instalação concluída com sucesso![0m"
+sleep 3
+}
 
 #clear
 clear
