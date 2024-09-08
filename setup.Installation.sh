@@ -30,8 +30,10 @@ apt install sudo nano adduser -y
 #clear
 clear
 
+
+
 #sucesso
-echo 2-3 terminada
+echo -e "\e[33m1-2 terminada\e[0m"
 
 
 #sleep
@@ -55,6 +57,13 @@ echo "$username:$password" | chpasswd
 
 # Adicionar as linhas ao arquivo /etc/sudoers
 echo "$username    ALL=(ALL:ALL) ALL" >> /etc/sudoers
+
+#clear
+clear
+
+
+echo -e "\e[33m2-2 terminada\e[0m"
+
 
 #fechar
 exit
