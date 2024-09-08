@@ -101,6 +101,7 @@ vncserver :2
 #clear
 clear
 
+{
 #banner
 echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
 echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
@@ -108,31 +109,56 @@ echo -e "[31m█▀█ █▀ █"
 echo -e "[32m█▄█ ▄█ ▄"
 echo -e "[34mMade by Felix the cat Font"
 echo -e "[33m[*] Instalando chromium..."
+}
 
 #sleep
 sleep 1
 
+{
 #softwares
 sudo apt install chromium -y
 sed -i 's/chromium %U/chromium --no-sandbox %U/g' /usr/share/applications/chromium.desktop
 echo -e "[33m[*] Instalação concluída com sucesso!"
 sleep 3
+}
 
-#clear
-clear
-
+{
 #banner
 echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
 echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
 echo -e "[31m█▀█ █▀ █"
 echo -e "[32m█▄█ ▄█ ▄"
 echo -e "[34mMade by Felix the cat Font"
+echo -e "[33m[*] Instalando VScode..."
+}
+
+{
+#code
+sudo apt update
+sudo apt install code
+}
+
+#sleep
+sleep 1
+
+#clear
+clear
+
+#banner
+{
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
+echo -e "[31m█▀█ █▀ █"
+echo -e "[32m█▄█ ▄█ ▄"
+echo -e "[34mMade by Felix the cat Font"
 echo -e "[33m[*] Instalando brave..."
+}
 
 #sleep
 sleep 1
 
 #softwares
+{
 sudo apt install curl
 
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
@@ -142,6 +168,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] http
 sudo apt update
 
 sudo apt install brave-browser -y
+}
 
 sed -i 's/brave-browser %U/brave-browser --no-sandbox %U/g' /usr/share/applications/brave-browser.desktop
 echo "Exec=/usr/bin/brave-browser --no-sandbox %U" >> ~/.local/share/applications/Brave.desktop
