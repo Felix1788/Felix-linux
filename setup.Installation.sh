@@ -33,6 +33,11 @@ clear
 
 
 #sucesso
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
+echo -e "[31m█▀█ █▀ █"
+echo -e "[32m█▄█ ▄█ ▄"
+echo -e "[34mMade by Felix the cat Font"
 echo -e "\e[33m1-2 terminada\e[0m"
 
 
@@ -43,12 +48,19 @@ sleep 3
 #clear
 clear
 
+#banner
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
+echo -e "[31m█▀█ █▀ █"
+echo -e "[32m█▄█ ▄█ ▄"
+echo -e "[34mMade by Felix the cat Font"
+
 # Perguntar ao usuário qual nome de usuário ele quer
-echo "Digite o nome de usuário:"
+echo -e "[34Digite o nome de usuário:"
 read username
 
 # Perguntar ao usuário qual senha ele quer
-echo "Digite a senha:"
+echo -e "[34Digite a senha:"
 read -s password
 
 # Criar o usuário com o nome e senha fornecidos
@@ -61,7 +73,12 @@ echo "$username    ALL=(ALL:ALL) ALL" >> /etc/sudoers
 #clear
 clear
 
-
+#banner
+echo -e "[31m█▀█ ▄▀█ █▀█ █▀▄ █░█ █▀"
+echo -e "[32m█▀▀ █▀█ █▀▄ █▄▀ █▄█ ▄█"
+echo -e "[31m█▀█ █▀ █"
+echo -e "[32m█▄█ ▄█ ▄"
+echo -e "[34mMade by Felix the cat Font"
 echo -e "\e[33m2-2 terminada\e[0m"
 
 
