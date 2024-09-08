@@ -143,7 +143,7 @@ sudo apt update
 
 sudo apt install brave-browser -y
 
-sed -i 'brave-browser --no-sandbox' /usr/share/applications/brave-browser.desktop
+sed -i 's/brave-browser %U/brave-browser --no-sandbox %U/g' /usr/share/applications/brave-browser.desktop
 echo "Exec=/usr/bin/brave-browser --no-sandbox %U" >> ~/.local/share/applications/Brave.desktop
 echo -e "[34m[*] Instalação concluída com sucesso![0m"
 sleep 3
