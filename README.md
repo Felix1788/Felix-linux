@@ -92,3 +92,6 @@ Full Credit of the Pardus image goes to them .
 
 Termux Proot Distro - https://github.com/termux/proot-distro
 ```
+
+
+### If you like our work then dont forget to give a Star :)
