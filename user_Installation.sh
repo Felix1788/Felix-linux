@@ -227,3 +227,4 @@ sleep 1
 #concluído
 echo -e "[32mProjeto terminado com sucesso!"
 echo -e "[32mAgora você pode usar 'vncserver' ou 'vncserver -kill :2'!"
+echo -e "[32mlocal da porta 'localhost:2'"
