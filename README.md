@@ -70,7 +70,7 @@ git clone https://github.com/Felix1788/Felix-linux ; cd Felix-linux/ ; chmod +x 
 
 - **You have to note your VNC password !!**
 
-- Ubuntu image is now successfully installed .
+- Pardus image is now successfully installed .
  
 - Type `vncserver :1` to run Vncserver
 - Type `vncserver -kill :1` to stop Vncserver
