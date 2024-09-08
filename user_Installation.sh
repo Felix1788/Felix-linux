@@ -114,7 +114,7 @@ sleep 1
 
 #softwares
 sudo apt install chromium -y
-sed -i 'choromium --no-sandbox' /usr/share/applications/chromium.desktop
+sed -i 's/chromium %U/chromium --no-sandbox %U/g' /usr/share/applications/chromium.desktop
 echo -e "[33m[*] Instalação concluída com sucesso!"
 sleep 3
 
