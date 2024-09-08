@@ -92,6 +92,7 @@ echo "" >> ~/.vnc/xstartup
 echo "dbus-launch" >> ~/.vnc/xstartup
 echo "startxfce4" >> ~/.vnc/xstartup
 cd ~/.vnc/
+chmod +x ~/.vnc/
 chmod +x *
 cd
 clear
