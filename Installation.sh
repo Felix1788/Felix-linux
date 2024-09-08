@@ -22,7 +22,7 @@ apt install proot-distro
 proot-distro install pardus
 
 #concluído
-echo Instalação terminada.
+echo -e "[31mInstalação terminada"
 
 #login
 pd login pardus
