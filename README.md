@@ -25,7 +25,6 @@
 - Supports Bangla Fonts
 - VLC Media Player and MPV media player
 - Visual Studio Code (buggy on arm )
-- Sublime Text Editor (only for arm64/aarch64)
 - Easy for Beginners
 - Comes with some cool themes.
                
