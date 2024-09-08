@@ -1,6 +1,4 @@
 #!/bin/bash
-#atualizar
-apt update
 
 #clear
 clear
@@ -14,6 +12,9 @@ echo -e "[34mMade by Felix the cat Font"
 
 #sleep
 sleep 1
+
+#atualizar
+apt update
 
 #banner
 echo -e "$(tput setaf 2)BEM VINDO A INSTALAÇÃO DO PARDUS 21 - 23$(tput sgr0)"
@@ -56,7 +57,7 @@ echo -e "[32m█▄█ ▄█ ▄"
 echo -e "[34mMade by Felix the cat Font"
 
 # Perguntar ao usuário qual nome de usuário ele quer
-echo -e "[34Digite o nome de usuário:"
+echo -e "[34DDigite o nome de usuário:"
 read username
 
 # Perguntar ao usuário qual senha ele quer
