@@ -23,8 +23,8 @@ sleep 2
 apt update
 
 #upgrade
-apt upgrade
-apt full-upgrade
+apt upgrade -y
+apt full-upgrade -y
 #instalar sudo & nano
 apt install sudo nano adduser -y
 
