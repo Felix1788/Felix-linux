@@ -60,6 +60,9 @@ clear
 vncserver
 vncserver -kill :1
 
+echo "" >> ~/.bashrc
+echo "neofetch" >> ~/.bashrc
+
 #clear
 clear
 
